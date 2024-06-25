@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.pgGameInfo"
+             Title="pgGameInfo" Loaded="ContentPage_Loaded" BackgroundColor="Bisque">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="24" HorizontalOptions="FillAndExpand" Spacing="20" >
+
+        <!--<Label Text="Result : " TextColor="Black" FontSize="Large" FontAttributes="Bold"  />-->
+
+        <HorizontalStackLayout Spacing="50">
+            <Label Text="Result :" TextColor="Black" FontSize="Medium"   WidthRequest="200"/>
+            <Label Text="0" TextColor="Black" FontSize="Medium" FontAttributes="Bold"   x:Name="lbFinalResult"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="50">
+            <Label Text="Quesation :" TextColor="Black" FontSize="Medium"   WidthRequest="200"  />
+            <Label Text="0" TextColor="Black" FontSize="Medium" FontAttributes="Bold"  x:Name="lbNumberOfQuesations"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="50">
+            <Label Text="Level : " TextColor="Black" FontSize="Medium"   WidthRequest="200"   />
+            <Label Text="0" TextColor="Black" FontSize="Medium" FontAttributes="Bold"  x:Name="lbQuesationLevel"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="50">
+            <Label Text="Operation :" TextColor="Black"   FontSize="Medium"   WidthRequest="200"/>
+            <Label Text="0" TextColor="Black" FontSize="Medium" FontAttributes="Bold"  x:Name="lbOperationLevel"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="50">
+            <Label Text="Correct Answer :" TextColor="Black" FontSize="Medium"  WidthRequest="200"/>
+            <Label Text="0" TextColor="Black" FontSize="Medium" FontAttributes="Bold"  x:Name="lbRigthQuesation"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="50">
+            <Label Text="Wrong Answer :" TextColor="Black" FontSize="Medium"   WidthRequest="200"/>
+            <Label Text="0" TextColor="Black" FontSize="Medium"  FontAttributes="Bold" x:Name="lbWrongQuesation"/>
+        </HorizontalStackLayout>
+
+
+        <Button Text="Restart Game" FontSize="Body"  Clicked="Button_Clicked"/>
+
+
+    </StackLayout>
+
+</ContentPage>

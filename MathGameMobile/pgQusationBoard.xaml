@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.pgQusationBoard"
+             Title="pgQusationBoard" BackgroundColor="White" Loaded="ContentPage_Loaded">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="24" HorizontalOptions="FillAndExpand" Spacing="12">
+
+            <Label Text="Quizz" TextColor="Black" FontSize="Large" FontAttributes="Bold" TextTransform="Uppercase" />
+
+        <HorizontalStackLayout >
+            <Label Text="Quesation : " TextColor="Black" FontSize="Caption" FontAttributes="Bold"/>
+            <Label Text="N" TextColor="Black" FontSize="Caption" FontAttributes="Bold"  BackgroundColor="Bisque" x:Name="lbQuesationNumber"/>
+            <Label Text="  /   " TextColor="Black" FontSize="Caption" FontAttributes="Bold" BackgroundColor="Bisque"/>
+            <Label Text="N" TextColor="Black" FontSize="Caption" FontAttributes="Bold" BackgroundColor="Bisque" x:Name="lbNumberOfQuesation"/>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout BackgroundColor="Bisque" Padding="10">
+
+            <Label Text="0" TextColor="Black" FontSize="Large" FontAttributes="Bold" TextTransform="Uppercase" x:Name="lbNum1"/>
+
+            <HorizontalStackLayout Spacing="150" >
+                <Label Text="0" TextColor="Black" FontSize="Large" FontAttributes="Bold" TextTransform="Uppercase" WidthRequest="100" x:Name="lbNum2"/>
+                <Label Text="0" TextColor="Black" FontSize="Large" FontAttributes="Bold" TextTransform="Uppercase" x:Name="lbOperation"/>
+            </HorizontalStackLayout>
+    
+           </VerticalStackLayout>
+
+        <Entry BackgroundColor="Bisque"  TextColor="Black" ReturnType="Done" FontAttributes="Bold" Keyboard="Numeric" MaxLength="50" x:Name="enInput" Text="0"/>
+
+        <Button Text="Check"  FontSize="Body"  Clicked="Button_Clicked"/>
+
+
+    </StackLayout>
+
+
+</ContentPage>

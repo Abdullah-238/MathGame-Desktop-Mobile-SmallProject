@@ -1,0 +1,13 @@
+D:\C_Sharp\MathGame\MathGame\bin\Release\MathGame.exe.config
+D:\C_Sharp\MathGame\MathGame\bin\Release\MathGame.exe
+D:\C_Sharp\MathGame\MathGame\bin\Release\MathGame.pdb
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.csproj.AssemblyReference.cache
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.Form2.resources
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.frmQuesationBoard.resources
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.Properties.Resources.resources
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.csproj.GenerateResource.cache
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.csproj.CoreCompileInputs.cache
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.exe
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.pdb
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.frmResult.resources
+D:\C_Sharp\MathGame\MathGame\obj\Release\MathGame.frmStatringPage.resources
