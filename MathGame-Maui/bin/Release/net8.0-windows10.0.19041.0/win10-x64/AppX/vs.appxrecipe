@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ABDULLAHPC</Machine>
+    <WindowsUser>good1</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>com.companyname.mathgamemobile</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\C_Sharp\MathGameMobile\MathGameMobile\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>74119E98D8A8F909B597E7CCAD8604BAA302C3C68A3686E485F16E44F3D60845</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.mathgamemobile_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.companyname.mathgamemobile_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.companyname.mathgamemobile</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\C_Sharp\MathGameMobile\MathGameMobile\bin\Release\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-06-23T00:05:11.968</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\bin\Release\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-06-23T00:04:33.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\bin\Release\net8.0-windows10.0.19041.0\win10-x64\MathGameMobile.runtimeconfig.json">
+      <PackagePath>MathGameMobile.runtimeconfig.json</PackagePath>
+      <Modified>2024-06-23T00:04:32.882</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>MathGameMobile.exe</PackagePath>
+      <Modified>2024-06-23T00:04:29.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+      <Modified>2024-06-22T18:58:07.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:01.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:01.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:01.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:02.138</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:02.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2024-06-22T18:58:07.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+      <Modified>2024-06-22T18:58:07.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-06-22T23:51:10.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.863</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:11.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no.scale-100.png">
+      <PackagePath>no.scale-100.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no.scale-125.png">
+      <PackagePath>no.scale-125.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no.scale-150.png">
+      <PackagePath>no.scale-150.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no.scale-200.png">
+      <PackagePath>no.scale-200.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\no.scale-400.png">
+      <PackagePath>no.scale-400.png</PackagePath>
+      <Modified>2024-06-22T23:51:10.340</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\bin\Release\net8.0-windows10.0.19041.0\win10-x64\MathGameMobile.deps.json">
+      <PackagePath>MathGameMobile.deps.json</PackagePath>
+      <Modified>2024-06-23T00:04:32.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2023-10-16T19:41:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:11:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-02-13T17:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2023-05-31T20:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2023-04-28T12:58:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2024-06-23T00:04:45.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2024-06-23T00:04:45.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2024-06-23T00:04:46.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2024-06-23T00:04:46.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2024-06-23T00:04:46.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2024-06-23T00:04:47.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+      <Modified>2024-06-23T00:04:47.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2024-06-23T00:04:47.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2024-06-23T00:04:48.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2024-06-23T00:04:50.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+      <Modified>2024-06-23T00:04:51.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.dll">
+      <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
+      <Modified>2024-06-23T00:04:53.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+      <Modified>2024-06-23T00:04:54.081</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.dll">
+      <PackagePath>Microsoft.Maui.dll</PackagePath>
+      <Modified>2024-06-23T00:04:55.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Essentials.dll">
+      <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
+      <Modified>2024-06-23T00:04:56.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Graphics.dll">
+      <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
+      <Modified>2024-06-23T00:04:56.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+      <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+      <Modified>2024-06-23T00:04:57.408</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:04:58.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2024-06-23T00:05:06.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:06.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:06.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:07.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:07.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:08.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:08.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:08.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:09.109</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:09.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:09.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2024-06-23T00:05:10.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2024-06-23T00:05:10.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\Microsoft.WindowsAppRuntime.Release.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
+      <Modified>2024-06-23T00:05:10.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\C_Sharp\MathGameMobile\MathGameMobile\obj\Release\net8.0-windows10.0.19041.0\win10-x64\R2R\MathGameMobile.dll">
+      <PackagePath>MathGameMobile.dll</PackagePath>
+      <Modified>2024-06-23T00:05:11.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.compatibility\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+      <Modified>2024-02-13T17:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.controls.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+      <Modified>2024-02-13T17:01:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\good1\.nuget\packages\microsoft.maui.core\8.0.7\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+      <Modified>2024-02-13T17:00:42.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\good1\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.MainPage" BackgroundColor="White">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="24">
+        
+        <VerticalStackLayout HorizontalOptions="FillAndExpand" Spacing="24">
+            <Label HorizontalTextAlignment="Center" Text="Math Game" FontSize="Large" TextType="Text" TextColor="Black" />
+            <Button Text="Start Game"  Clicked="Button_Clicked" />
+        </VerticalStackLayout>
+    </StackLayout>
+    
+
+</ContentPage>

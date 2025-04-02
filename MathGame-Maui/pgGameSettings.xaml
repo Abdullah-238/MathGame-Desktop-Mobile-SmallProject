@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MathGameMobile.NewPage1"
+             Title="NewPage1"
+             BackgroundColor="White">
+    <StackLayout VerticalOptions="FillAndExpand" Padding="24" HorizontalOptions="FillAndExpand" Spacing="12" >
+
+            <VerticalStackLayout VerticalOptions="Center" Spacing="8">
+                <Label Text="How many Quesation do you want to answer ?" TextColor="Black"/>
+                <Entry BackgroundColor="Bisque"  TextColor="Black" ReturnType="Done" FontAttributes="Bold" Keyboard="Numeric" MaxLength="2" x:Name="enNumberOfQuesation" Placeholder="Enter number of quesation" PlaceholderColor="White" Text="0" />
+            </VerticalStackLayout>
+
+            <VerticalStackLayout BackgroundColor="Bisque" Padding="10">
+
+                <Label Text="Select Quesation Level : " TextColor="Black"/>
+            <RadioButton TextColor="Black" Content="Easy" IsChecked="True" x:Name="rbEasy"/>
+            <RadioButton TextColor="Black" Content="Med" x:Name="rbMed"/>
+            <RadioButton TextColor="Black" Content="Hard" />
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout BackgroundColor="Bisque" Padding="10">
+
+                <Label Text="Select Operation Type : " TextColor="Black"/>
+            <RadioButton TextColor="Black" Content="Add" IsChecked="True" x:Name="rbAdd"/>
+            <RadioButton TextColor="Black" Content="Sub" x:Name="rbSub"/>
+            <RadioButton TextColor="Black" Content="Multi" x:Name="rbMult"/>
+            <RadioButton TextColor="Black" Content="Div" x:Name="rbDiv"/>
+            <RadioButton TextColor="Black" Content="Mix" x:Name="rbMix"/>
+
+        </VerticalStackLayout>
+
+            <Button Text="Start Game"  FontSize="Body"  Clicked="Button_Clicked_1"/>
+
+
+    </StackLayout>
+
+
+</ContentPage>
